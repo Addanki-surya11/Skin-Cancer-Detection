@@ -1,0 +1,31 @@
+{
+  "class_names": [
+    "akiec",
+    "bcc",
+    "bkl",
+    "df",
+    "mel",
+    "nv",
+    "vasc"
+  ],
+  "idx_to_label": {
+    "0": "akiec",
+    "1": "bcc",
+    "2": "bkl",
+    "3": "df",
+    "4": "mel",
+    "5": "nv",
+    "6": "vasc"
+  },
+  "cnn_val_accuracy": 0.7483660130718954,
+  "cnn_test_accuracy": 0.7875816993464052,
+  "xgb_test_accuracy": 0.7647058823529411,
+  "target_accuracy": 0.9,
+  "meets_target": false,
+  "rejection": {
+    "confidence_threshold": 0.45,
+    "ood_threshold": 0.0019357297899270547,
+    "ood_confidence_bypass": 0.75,
+    "skin_ratio_threshold": 0.2693611851851852
+  }
+}
